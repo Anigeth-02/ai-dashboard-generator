@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Dashboard Generator</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <h1>AI Dashboard Generator</h1>
+
+    <!-- JSON INPUT -->
+    <textarea id="jsonInput" placeholder="Paste JSON here"></textarea>
+
+    <!-- USER PROMPT -->
+    <input
+      type="text"
+      id="promptInput"
+      placeholder="Describe dashboard style"
+    />
+
+    <!-- BUTTON -->
+    <button onclick="generateDashboard()">Generate</button>
+
+
+    <!-- PREVIEW AREA -->
+    <iframe id="preview"></iframe>
+
+    <!-- JS -->
+    <script src="/static/script.js"></script>
+
+
+</body>
+</html>
